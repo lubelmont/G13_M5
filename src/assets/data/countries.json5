@@ -1,0 +1,1266 @@
+[
+  {
+    name: {
+      common: "Chile",
+      official: "Republic of Chile",
+      nativeName: {
+        spa: {
+          official: "República de Chile",
+          common: "Chile"
+        }
+      }
+    },
+    currencies: {
+      CLP: {
+        name: "Chilean peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Santiago"
+    ]
+  },
+  {
+    name: {
+      common: "Guyana",
+      official: "Co-operative Republic of Guyana",
+      nativeName: {
+        eng: {
+          official: "Co-operative Republic of Guyana",
+          common: "Guyana"
+        }
+      }
+    },
+    currencies: {
+      GYD: {
+        name: "Guyanese dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Georgetown"
+    ]
+  },
+  {
+    name: {
+      common: "Dominica",
+      official: "Commonwealth of Dominica",
+      nativeName: {
+        eng: {
+          official: "Commonwealth of Dominica",
+          common: "Dominica"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Roseau"
+    ]
+  },
+  {
+    name: {
+      common: "Barbados",
+      official: "Barbados",
+      nativeName: {
+        eng: {
+          official: "Barbados",
+          common: "Barbados"
+        }
+      }
+    },
+    currencies: {
+      BBD: {
+        name: "Barbadian dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Bridgetown"
+    ]
+  },
+  {
+    name: {
+      common: "Peru",
+      official: "Republic of Peru",
+      nativeName: {
+        aym: {
+          official: "Piruw Suyu",
+          common: "Piruw"
+        },
+        que: {
+          official: "Piruw Ripuwlika",
+          common: "Piruw"
+        },
+        spa: {
+          official: "República del Perú",
+          common: "Perú"
+        }
+      }
+    },
+    currencies: {
+      PEN: {
+        name: "Peruvian sol",
+        symbol: "S/ "
+      }
+    },
+    capital: [
+      "Lima"
+    ]
+  },
+  {
+    name: {
+      common: "Puerto Rico",
+      official: "Commonwealth of Puerto Rico",
+      nativeName: {
+        eng: {
+          official: "Commonwealth of Puerto Rico",
+          common: "Puerto Rico"
+        },
+        spa: {
+          official: "Estado Libre Asociado de Puerto Rico",
+          common: "Puerto Rico"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "San Juan"
+    ]
+  },
+  {
+    name: {
+      common: "Belize",
+      official: "Belize",
+      nativeName: {
+        bjz: {
+          official: "Belize",
+          common: "Belize"
+        },
+        eng: {
+          official: "Belize",
+          common: "Belize"
+        },
+        spa: {
+          official: "Belice",
+          common: "Belice"
+        }
+      }
+    },
+    currencies: {
+      BZD: {
+        name: "Belize dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Belmopan"
+    ]
+  },
+  {
+    name: {
+      common: "Mexico",
+      official: "United Mexican States",
+      nativeName: {
+        spa: {
+          official: "Estados Unidos Mexicanos",
+          common: "México"
+        }
+      }
+    },
+    currencies: {
+      MXN: {
+        name: "Mexican peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Mexico City"
+    ]
+  },
+  {
+    name: {
+      common: "Anguilla",
+      official: "Anguilla",
+      nativeName: {
+        eng: {
+          official: "Anguilla",
+          common: "Anguilla"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "The Valley"
+    ]
+  },
+  {
+    name: {
+      common: "Turks and Caicos Islands",
+      official: "Turks and Caicos Islands",
+      nativeName: {
+        eng: {
+          official: "Turks and Caicos Islands",
+          common: "Turks and Caicos Islands"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Cockburn Town"
+    ]
+  },
+  {
+    name: {
+      common: "Saint Kitts and Nevis",
+      official: "Federation of Saint Christopher and Nevis",
+      nativeName: {
+        eng: {
+          official: "Federation of Saint Christopher and Nevis",
+          common: "Saint Kitts and Nevis"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Basseterre"
+    ]
+  },
+  {
+    name: {
+      common: "Argentina",
+      official: "Argentine Republic",
+      nativeName: {
+        grn: {
+          official: "Argentine Republic",
+          common: "Argentina"
+        },
+        spa: {
+          official: "República Argentina",
+          common: "Argentina"
+        }
+      }
+    },
+    currencies: {
+      ARS: {
+        name: "Argentine peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Buenos Aires"
+    ]
+  },
+  {
+    name: {
+      common: "Nicaragua",
+      official: "Republic of Nicaragua",
+      nativeName: {
+        spa: {
+          official: "República de Nicaragua",
+          common: "Nicaragua"
+        }
+      }
+    },
+    currencies: {
+      NIO: {
+        name: "Nicaraguan córdoba",
+        symbol: "C$"
+      }
+    },
+    capital: [
+      "Managua"
+    ]
+  },
+  {
+    name: {
+      common: "United States",
+      official: "United States of America",
+      nativeName: {
+        eng: {
+          official: "United States of America",
+          common: "United States"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Washington, D.C."
+    ]
+  },
+  {
+    name: {
+      common: "Saint Barthélemy",
+      official: "Collectivity of Saint Barthélemy",
+      nativeName: {
+        fra: {
+          official: "Collectivité de Saint-Barthélemy",
+          common: "Saint-Barthélemy"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Gustavia"
+    ]
+  },
+  {
+    name: {
+      common: "Brazil",
+      official: "Federative Republic of Brazil",
+      nativeName: {
+        por: {
+          official: "República Federativa do Brasil",
+          common: "Brasil"
+        }
+      }
+    },
+    currencies: {
+      BRL: {
+        name: "Brazilian real",
+        symbol: "R$"
+      }
+    },
+    capital: [
+      "Brasília"
+    ]
+  },
+  {
+    name: {
+      common: "Saint Vincent and the Grenadines",
+      official: "Saint Vincent and the Grenadines",
+      nativeName: {
+        eng: {
+          official: "Saint Vincent and the Grenadines",
+          common: "Saint Vincent and the Grenadines"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Kingstown"
+    ]
+  },
+  {
+    name: {
+      common: "Venezuela",
+      official: "Bolivarian Republic of Venezuela",
+      nativeName: {
+        spa: {
+          official: "República Bolivariana de Venezuela",
+          common: "Venezuela"
+        }
+      }
+    },
+    currencies: {
+      VES: {
+        name: "Venezuelan bolívar soberano",
+        symbol: "Bs.S."
+      }
+    },
+    capital: [
+      "Caracas"
+    ]
+  },
+  {
+    name: {
+      common: "Curaçao",
+      official: "Country of Curaçao",
+      nativeName: {
+        eng: {
+          official: "Country of Curaçao",
+          common: "Curaçao"
+        },
+        nld: {
+          official: "Land Curaçao",
+          common: "Curaçao"
+        },
+        pap: {
+          official: "Pais Kòrsou",
+          common: "Pais Kòrsou"
+        }
+      }
+    },
+    currencies: {
+      ANG: {
+        name: "Netherlands Antillean guilder",
+        symbol: "ƒ"
+      }
+    },
+    capital: [
+      "Willemstad"
+    ]
+  },
+  {
+    name: {
+      common: "Martinique",
+      official: "Martinique",
+      nativeName: {
+        fra: {
+          official: "Martinique",
+          common: "Martinique"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Fort-de-France"
+    ]
+  },
+  {
+    name: {
+      common: "British Virgin Islands",
+      official: "Virgin Islands",
+      nativeName: {
+        eng: {
+          official: "Virgin Islands",
+          common: "British Virgin Islands"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Road Town"
+    ]
+  },
+  {
+    name: {
+      common: "United States Minor Outlying Islands",
+      official: "United States Minor Outlying Islands",
+      nativeName: {
+        eng: {
+          official: "United States Minor Outlying Islands",
+          common: "United States Minor Outlying Islands"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Washington DC"
+    ]
+  },
+  {
+    name: {
+      common: "Guadeloupe",
+      official: "Guadeloupe",
+      nativeName: {
+        fra: {
+          official: "Guadeloupe",
+          common: "Guadeloupe"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Basse-Terre"
+    ]
+  },
+  {
+    name: {
+      common: "Caribbean Netherlands",
+      official: "Bonaire, Sint Eustatius and Saba",
+      nativeName: {
+        nld: {
+          official: "Bonaire, Sint Eustatius en Saba",
+          common: "Caribisch Nederland"
+        },
+        pap: {
+          official: "Boneiru, Sint Eustatius y Saba",
+          common: "Boneiru, Sint Eustatius y Saba"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Kralendijk"
+    ]
+  },
+  {
+    name: {
+      common: "French Guiana",
+      official: "Guiana",
+      nativeName: {
+        fra: {
+          official: "Guyane",
+          common: "Guyane française"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Cayenne"
+    ]
+  },
+  {
+    name: {
+      common: "Guatemala",
+      official: "Republic of Guatemala",
+      nativeName: {
+        spa: {
+          official: "República de Guatemala",
+          common: "Guatemala"
+        }
+      }
+    },
+    currencies: {
+      GTQ: {
+        name: "Guatemalan quetzal",
+        symbol: "Q"
+      }
+    },
+    capital: [
+      "Guatemala City"
+    ]
+  },
+  {
+    name: {
+      common: "Bolivia",
+      official: "Plurinational State of Bolivia",
+      nativeName: {
+        aym: {
+          official: "Wuliwya Suyu",
+          common: "Wuliwya"
+        },
+        grn: {
+          official: "Tetã Volívia",
+          common: "Volívia"
+        },
+        que: {
+          official: "Buliwya Mamallaqta",
+          common: "Buliwya"
+        },
+        spa: {
+          official: "Estado Plurinacional de Bolivia",
+          common: "Bolivia"
+        }
+      }
+    },
+    currencies: {
+      BOB: {
+        name: "Bolivian boliviano",
+        symbol: "Bs."
+      }
+    },
+    capital: [
+      "Sucre"
+    ]
+  },
+  {
+    name: {
+      common: "Bahamas",
+      official: "Commonwealth of the Bahamas",
+      nativeName: {
+        eng: {
+          official: "Commonwealth of the Bahamas",
+          common: "Bahamas"
+        }
+      }
+    },
+    currencies: {
+      BSD: {
+        name: "Bahamian dollar",
+        symbol: "$"
+      },
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Nassau"
+    ]
+  },
+  {
+    name: {
+      common: "Haiti",
+      official: "Republic of Haiti",
+      nativeName: {
+        fra: {
+          official: "République d'Haïti",
+          common: "Haïti"
+        },
+        hat: {
+          official: "Repiblik Ayiti",
+          common: "Ayiti"
+        }
+      }
+    },
+    currencies: {
+      HTG: {
+        name: "Haitian gourde",
+        symbol: "G"
+      }
+    },
+    capital: [
+      "Port-au-Prince"
+    ]
+  },
+  {
+    name: {
+      common: "Suriname",
+      official: "Republic of Suriname",
+      nativeName: {
+        nld: {
+          official: "Republiek Suriname",
+          common: "Suriname"
+        }
+      }
+    },
+    currencies: {
+      SRD: {
+        name: "Surinamese dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Paramaribo"
+    ]
+  },
+  {
+    name: {
+      common: "Aruba",
+      official: "Aruba",
+      nativeName: {
+        nld: {
+          official: "Aruba",
+          common: "Aruba"
+        },
+        pap: {
+          official: "Aruba",
+          common: "Aruba"
+        }
+      }
+    },
+    currencies: {
+      AWG: {
+        name: "Aruban florin",
+        symbol: "ƒ"
+      }
+    },
+    capital: [
+      "Oranjestad"
+    ]
+  },
+  {
+    name: {
+      common: "Saint Martin",
+      official: "Saint Martin",
+      nativeName: {
+        fra: {
+          official: "Saint-Martin",
+          common: "Saint-Martin"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Marigot"
+    ]
+  },
+  {
+    name: {
+      common: "Dominican Republic",
+      official: "Dominican Republic",
+      nativeName: {
+        spa: {
+          official: "República Dominicana",
+          common: "República Dominicana"
+        }
+      }
+    },
+    currencies: {
+      DOP: {
+        name: "Dominican peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Santo Domingo"
+    ]
+  },
+  {
+    name: {
+      common: "Canada",
+      official: "Canada",
+      nativeName: {
+        eng: {
+          official: "Canada",
+          common: "Canada"
+        },
+        fra: {
+          official: "Canada",
+          common: "Canada"
+        }
+      }
+    },
+    currencies: {
+      CAD: {
+        name: "Canadian dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Ottawa"
+    ]
+  },
+  {
+    name: {
+      common: "Honduras",
+      official: "Republic of Honduras",
+      nativeName: {
+        spa: {
+          official: "República de Honduras",
+          common: "Honduras"
+        }
+      }
+    },
+    currencies: {
+      HNL: {
+        name: "Honduran lempira",
+        symbol: "L"
+      }
+    },
+    capital: [
+      "Tegucigalpa"
+    ]
+  },
+  {
+    name: {
+      common: "Sint Maarten",
+      official: "Sint Maarten",
+      nativeName: {
+        eng: {
+          official: "Sint Maarten",
+          common: "Sint Maarten"
+        },
+        fra: {
+          official: "Saint-Martin",
+          common: "Saint-Martin"
+        },
+        nld: {
+          official: "Sint Maarten",
+          common: "Sint Maarten"
+        }
+      }
+    },
+    currencies: {
+      ANG: {
+        name: "Netherlands Antillean guilder",
+        symbol: "ƒ"
+      }
+    },
+    capital: [
+      "Philipsburg"
+    ]
+  },
+  {
+    name: {
+      common: "Costa Rica",
+      official: "Republic of Costa Rica",
+      nativeName: {
+        spa: {
+          official: "República de Costa Rica",
+          common: "Costa Rica"
+        }
+      }
+    },
+    currencies: {
+      CRC: {
+        name: "Costa Rican colón",
+        symbol: "₡"
+      }
+    },
+    capital: [
+      "San José"
+    ]
+  },
+  {
+    name: {
+      common: "Uruguay",
+      official: "Oriental Republic of Uruguay",
+      nativeName: {
+        spa: {
+          official: "República Oriental del Uruguay",
+          common: "Uruguay"
+        }
+      }
+    },
+    currencies: {
+      UYU: {
+        name: "Uruguayan peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Montevideo"
+    ]
+  },
+  {
+    name: {
+      common: "Bermuda",
+      official: "Bermuda",
+      nativeName: {
+        eng: {
+          official: "Bermuda",
+          common: "Bermuda"
+        }
+      }
+    },
+    currencies: {
+      BMD: {
+        name: "Bermudian dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Hamilton"
+    ]
+  },
+  {
+    name: {
+      common: "El Salvador",
+      official: "Republic of El Salvador",
+      nativeName: {
+        spa: {
+          official: "República de El Salvador",
+          common: "El Salvador"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "San Salvador"
+    ]
+  },
+  {
+    name: {
+      common: "Trinidad and Tobago",
+      official: "Republic of Trinidad and Tobago",
+      nativeName: {
+        eng: {
+          official: "Republic of Trinidad and Tobago",
+          common: "Trinidad and Tobago"
+        }
+      }
+    },
+    currencies: {
+      TTD: {
+        name: "Trinidad and Tobago dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Port of Spain"
+    ]
+  },
+  {
+    name: {
+      common: "Saint Pierre and Miquelon",
+      official: "Saint Pierre and Miquelon",
+      nativeName: {
+        fra: {
+          official: "Collectivité territoriale de Saint-Pierre-et-Miquelon",
+          common: "Saint-Pierre-et-Miquelon"
+        }
+      }
+    },
+    currencies: {
+      EUR: {
+        name: "Euro",
+        symbol: "€"
+      }
+    },
+    capital: [
+      "Saint-Pierre"
+    ]
+  },
+  {
+    name: {
+      common: "Falkland Islands",
+      official: "Falkland Islands",
+      nativeName: {
+        eng: {
+          official: "Falkland Islands",
+          common: "Falkland Islands"
+        }
+      }
+    },
+    currencies: {
+      FKP: {
+        name: "Falkland Islands pound",
+        symbol: "£"
+      }
+    },
+    capital: [
+      "Stanley"
+    ]
+  },
+  {
+    name: {
+      common: "Cayman Islands",
+      official: "Cayman Islands",
+      nativeName: {
+        eng: {
+          official: "Cayman Islands",
+          common: "Cayman Islands"
+        }
+      }
+    },
+    currencies: {
+      KYD: {
+        name: "Cayman Islands dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "George Town"
+    ]
+  },
+  {
+    name: {
+      common: "Greenland",
+      official: "Greenland",
+      nativeName: {
+        kal: {
+          official: "Kalaallit Nunaat",
+          common: "Kalaallit Nunaat"
+        }
+      }
+    },
+    currencies: {
+      DKK: {
+        name: "krone",
+        symbol: "kr."
+      }
+    },
+    capital: [
+      "Nuuk"
+    ]
+  },
+  {
+    name: {
+      common: "Ecuador",
+      official: "Republic of Ecuador",
+      nativeName: {
+        spa: {
+          official: "República del Ecuador",
+          common: "Ecuador"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Quito"
+    ]
+  },
+  {
+    name: {
+      common: "Saint Lucia",
+      official: "Saint Lucia",
+      nativeName: {
+        eng: {
+          official: "Saint Lucia",
+          common: "Saint Lucia"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Castries"
+    ]
+  },
+  {
+    name: {
+      common: "Antigua and Barbuda",
+      official: "Antigua and Barbuda",
+      nativeName: {
+        eng: {
+          official: "Antigua and Barbuda",
+          common: "Antigua and Barbuda"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Saint John's"
+    ]
+  },
+  {
+    name: {
+      common: "United States Virgin Islands",
+      official: "Virgin Islands of the United States",
+      nativeName: {
+        eng: {
+          official: "Virgin Islands of the United States",
+          common: "United States Virgin Islands"
+        }
+      }
+    },
+    currencies: {
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Charlotte Amalie"
+    ]
+  },
+  {
+    name: {
+      common: "Jamaica",
+      official: "Jamaica",
+      nativeName: {
+        eng: {
+          official: "Jamaica",
+          common: "Jamaica"
+        },
+        jam: {
+          official: "Jamaica",
+          common: "Jamaica"
+        }
+      }
+    },
+    currencies: {
+      JMD: {
+        name: "Jamaican dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Kingston"
+    ]
+  },
+  {
+    name: {
+      common: "Paraguay",
+      official: "Republic of Paraguay",
+      nativeName: {
+        grn: {
+          official: "Tetã Paraguái",
+          common: "Paraguái"
+        },
+        spa: {
+          official: "República de Paraguay",
+          common: "Paraguay"
+        }
+      }
+    },
+    currencies: {
+      PYG: {
+        name: "Paraguayan guaraní",
+        symbol: "₲"
+      }
+    },
+    capital: [
+      "Asunción"
+    ]
+  },
+  {
+    name: {
+      common: "Grenada",
+      official: "Grenada",
+      nativeName: {
+        eng: {
+          official: "Grenada",
+          common: "Grenada"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "St. George's"
+    ]
+  },
+  {
+    name: {
+      common: "Cuba",
+      official: "Republic of Cuba",
+      nativeName: {
+        spa: {
+          official: "República de Cuba",
+          common: "Cuba"
+        }
+      }
+    },
+    currencies: {
+      CUC: {
+        name: "Cuban convertible peso",
+        symbol: "$"
+      },
+      CUP: {
+        name: "Cuban peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Havana"
+    ]
+  },
+  {
+    name: {
+      common: "Panama",
+      official: "Republic of Panama",
+      nativeName: {
+        spa: {
+          official: "República de Panamá",
+          common: "Panamá"
+        }
+      }
+    },
+    currencies: {
+      PAB: {
+        name: "Panamanian balboa",
+        symbol: "B/."
+      },
+      USD: {
+        name: "United States dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Panama City"
+    ]
+  },
+  {
+    name: {
+      common: "Colombia",
+      official: "Republic of Colombia",
+      nativeName: {
+        spa: {
+          official: "República de Colombia",
+          common: "Colombia"
+        }
+      }
+    },
+    currencies: {
+      COP: {
+        name: "Colombian peso",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Bogotá"
+    ]
+  },
+  {
+    name: {
+      common: "Montserrat",
+      official: "Montserrat",
+      nativeName: {
+        eng: {
+          official: "Montserrat",
+          common: "Montserrat"
+        }
+      }
+    },
+    currencies: {
+      XCD: {
+        name: "Eastern Caribbean dollar",
+        symbol: "$"
+      }
+    },
+    capital: [
+      "Plymouth"
+    ]
+  }
+]
