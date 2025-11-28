@@ -2,123 +2,106 @@ import _ from 'lodash';
 import { createHeader } from './components/header.js';
 import './styles/index.css';
 
-import profileActive from './assets/images/profile_active.svg';
-import profileInactive from './assets/images/profile_inactive.svg';
 import profile from './assets/images/Profile.png';
-import countries from './assets/data/countries.json5';
 
+
+import { createNavigation } from './components/navigation.js';
+import { createCountrySection } from './pages/contriesPage.js';
+
+import { createUserPage, displayUsers } from './pages/usuariosPage.js';
+import { createClimaPage } from './pages/climaPage.js';
+import { createCountryPage } from './pages/contriesPage.js';
 
 
 console.log('Lodash version:', _.VERSION);
 
 
+let currentPage = null;
+function navigateToPage(pageId) {
+
+    if (currentPage){
+        currentPage.remove();
+    }
+
+    const pageContainer = document.getElementById('page-container');
+    switch(pageId) {
+        case 'home':
+            currentPage = createUserPage();
+            break;
+        case 'paises':
+            currentPage = createCountryPage();
+            break;
+        case 'clima':
+            currentPage = createClimaPage();
+            break;
+        default:
+            currentPage = document.createElement('div');
+            currentPage.textContent = 'Página en construcción';
+    }
+
+    pageContainer.appendChild(currentPage);
+    
 
 
 
-const users = [
-    { name: 'Alice', isActive: true, age: 30, departament: 'HR', image: profile  },
-    { name: 'Bob', isActive: false, age: 25, department: 'IT', image: profile },
-    { name: 'Charlie', isActive: true, age: 35, department: 'Finance', image: profile },
-    { name: 'Diana', isActive: false, age: 28, department: 'Marketing', image: profile },
-    { name: 'Ethan', isActive: true, age: 32, department: 'IT', image: profile },
-    { name: 'Fiona', isActive: true, age: 29, department: 'HR', image: profile },
-];
-
+}
 
 
 function init() {
 
     const app = document.getElementById('app');
+    app.innerHTML = '';
 
-    const header = createHeader('Cualquier titulo Dinámico');
-    const userSecction = createUserSection();
-    const countrySection = createCountrySection();
-    const button = createButton('Click Me', () => {
-        alert('Button Clicked!');
-    });
+    const header = createHeader('Modulo de Navegación');
+    const navigation = createNavigation(navigateToPage);
+
+
+    const pageContainer = document.createElement('div');
+    pageContainer.id = 'page-container';
+    pageContainer.className = 'page-container';
+
+
 
     app.appendChild(header);
-    app.appendChild(userSecction);
-    app.appendChild(countrySection);
-    app.appendChild(button);
+    app.appendChild(navigation);
+    app.appendChild(pageContainer);
 
-
-    displayUsers(users);
-    displayCountries(countries);
+    navigateToPage('home');
 
 }
 
-function displayCountries(countries){
-    const countryList = document.getElementById('country-list');
-    countryList.innerHTML = '';
-    
-    countries.forEach(country => {
-        const countryCard = document.createElement('div');
-        countryCard.className = 'country-card';
-        countryCard.innerHTML = `
-            <h3>${country.name.common}</h3>
-            <p>Nombre oficial: ${country.name.official}</p>
-            <p>Capital: ${country.capital.join(', ')}</p>
-        `;
-        countryList.appendChild(countryCard);
-    });
-}
+function handleNavigation(pageId) {
+    console.log('Navigating to:', pageId);
+    const sections = document.querySelectorAll('.user-section, .country-section');
+    sections.forEach(section => section.style.display = 'none');
 
-function createCountrySection() {
-    const section = document.createElement('div');
-    section.className = 'country-section';
-
-    const title = document.createElement('h2');
-    title.textContent = 'Country Information';
-    section.appendChild(title);
-    const countryList = document.createElement('div');
-    countryList.id = 'country-list';
-    section.appendChild(countryList);
-
-    return section;
-}
+    if (pageId === 'home') {
+        sections.forEach(section => section.style.display = 'block');
+    } else if (pageId === 'clima') {
+        alert('Clima page is under construction.');
+    } else {
+        alert(`The ${pageId} page is under construction.`);
+    }
 
 
-function displayUsers(users){
-    const userList = document.getElementById('user-list');
-    userList.innerHTML = '';
-    users.forEach(user => {
-        const userCard = document.createElement('div');
-        userCard.className = `user-card ${user.isActive ? 'active' : 'inactive'}`;
-        userCard.innerHTML = `
-            <img src="${user.image}" alt="${user.name}" height="50"/>
-            <h3>${user.name}</h3>
-            <p>Age: ${user.age}</p>
-            <p>Department: ${user.department}</p>
-        `;
-        userList.appendChild(userCard);
-    });
 }
 
 
 
-function createUserSection() {
-    const section = document.createElement('div');
-    section.className = 'user-section';
 
-    const title = document.createElement('h2');
-    title.textContent = 'User Information';
-    section.appendChild(title);
 
-    const userList = document.createElement('div');
-    userList.id = 'user-list';
-    section.appendChild(userList);
 
-    return section;
-}
 
-function createButton(text, onClick) {
-    const button = document.createElement('button');
-    button.textContent = text;
-    button.className = 'main-button';
-    button.addEventListener('click', onClick);
-    return button;
-}
+
+
+
+// function createButton(text, onClick) {
+//     const button = document.createElement('button');
+//     button.textContent = text;
+//     button.className = 'main-button';
+//     button.addEventListener('click', onClick);
+//     return button;
+// }
 
 
 
